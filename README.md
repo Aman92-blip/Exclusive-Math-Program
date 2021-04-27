@@ -18,7 +18,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </div>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-blue w3-animate-left" style="z-index:3;width:400px;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-blue w3-animate-left" style="z-index:3;width:200px;" id="mySidebar"><br>
   <div class="w3-container w3-row">
     <div class="w3-col s4">
       <img src="/w3images/avatar2.png" class="w3-circle w3-margin-right" style="width:46px">
@@ -28,20 +28,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
       <a href="#" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
       <a href="#" class="w3-bar-item w3-button"><i class="fa fa-cog"></i></a>
-</div>
-  </div>
-  <hr>
-  <div class="w3-container">
-    <h5>Classes</h5>
-  </div>
-  <div class="w3-bar-block">
-    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
-    <a href="http://learn.p2.blog/2021/03/16/online-class-schedule/" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>  Sunday</a>
-    <a href="http://learn.p2.blog/2021/03/16/online-class-monday/" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  Monday</a>
-    <a href="http://learn.p2.blog/2021/03/16/online-class-tuesday/" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Tuesday</a>
-    <a href="http://learn.p2.blog/2021/03/16/online-class-wednesday/" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Wednesday</a>
-    <a href="http://learn.p2.blog/2021/03/16/online-class-thursday/" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw"></i>  Thursday</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  Facebook Group</a>
+
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  Google ClassRooms</a>
 </div>
   <hr>
@@ -141,30 +128,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         
     <button class="w3-button w3-dark-grey">my email:miahmohammedaman@gmail.com  <i class="fa fa-arrow-right"></i></button>
   <hr>
-  <div class="w3-container">
-    <h5>CAPTAINS</h5>
-    <ul class="w3-ul w3-card-4 w3-white">
-      <li class="w3-padding-16">
-        <img src="/w3images/avatar2.png" class="w3-left w3-circle w3-margin-right" style="width:35px">
-        <span class="w3-
-xlarge">MAHADI</span><br>
-      </li>
-      <li class="w3-padding-16">
-        <img src="/w3images/avatar5.png" class="w3-left w3-circle w3-margin-right" style="width:35px">
-        <span class="w3-xlarge">JIDAN</span><br>
-      </li>
-      <li class="w3-padding-16">
-        <img src="/w3images/avatar6.png" class="w3-left w3-circle w3-margin-right" style="width:35px">
-        <span class="w3-xlarge">AYSHA</span><br>
-</li>
-      <li class="w3-padding-16">
-        <img src="/w3images/avatar6.png" class="w3-left w3-circle w3-margin-right" style="width:35px">
-        <span class="w3-xlarge">SAMIHA</span><br>
-</li>
-    </ul>
-  </div>
-  <hr>
-
+  
   
   <br>
   <div class="w3-container w3-dark-grey w3-padding-32">
