@@ -1,6 +1,6 @@
-# Exclusive-Math-Program
+
 <!-- Navigation -->
-<nav class="w3-bar w3-black">
+<nav class="w3-bar w3-pink">
   <a href="#home" class="w3-button w3-bar-item">Home</a>
   <a href="#band" class="w3-button w3-bar-item">Band</a>
   <a href="#tour" class="w3-button w3-bar-item">Tour</a>
