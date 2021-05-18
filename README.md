@@ -52,9 +52,9 @@ body {
 <body>
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
-  <a href="#news">Group EMP</a>
-  <a href="#contact">YOU TUBE</a>
- <a href="#about">TEAM FORM</a>
+  <a href="#newshttps://facebook.com/groups/sajansiremp/">Group EMP</a>
+  <a href="#contacthttps://youtube.com/c/SajanSir">YOU TUBE</a>
+ <a href="#abouthttps://surveyheart.com/form/60a38489f7b5525279b77ce1o">TEAM FORM</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
