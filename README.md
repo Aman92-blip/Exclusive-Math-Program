@@ -62,7 +62,7 @@ body {
 
 <div style="padding-left:16px">
   <h2>EXCLUSIVE MATH PROGRAMME </h2>
-  <p>Resize the browser window to see how it works.</p>
+<p>A group of Math</p>
 </div>
 <script>
 function myFunction() {
