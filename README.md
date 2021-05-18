@@ -78,7 +78,7 @@ body {
   
  
 
-html>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -105,10 +105,10 @@ body {
 </head>
 <body>
 
-<h1 class="glow">EXCLUSIVE MATH PROG;AM</h1>
+<h1 class="glow">EXCLUSIVE MATH PROGRAM</h1>
      
 </body>
-</html> 
+
 
 
 
