@@ -16,7 +16,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #00FF00;
+  color: #FF0000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
