@@ -131,8 +131,3 @@ body {
 
 
 
-Powered & Developed by MIAH MOHAMMED AMAN
-Studies at SCHOLARSHOME, Shahi Eidgah
- 
-
-
