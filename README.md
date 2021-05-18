@@ -60,23 +60,9 @@ body {
   </a>
 </div>
 
-<div style="padding-left:16px">
-  <h2>EXCLUSIVE MATH PROGRAMME </h2>
-<p>A group of Math</p>
-</div>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
 
-</body>
-</html>
+  
+
 
 <html>
 <head>
@@ -119,7 +105,7 @@ body {
 </head>
 <body>
 
-<h1 class="glow">GLOWING TEXT</h1>
+<h1 class="glow">EXCLUSIVE MATH PROG;AM</h1>
      
 </body>
 </html> 
