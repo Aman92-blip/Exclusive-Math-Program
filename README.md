@@ -29,7 +29,7 @@ body {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
+  color: green;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -37,7 +37,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: green;
 }
   .dropdown-content {
   display: none;
@@ -70,19 +70,20 @@ body {
 <div class="navbar">
   <a href="#home">Home</a>
   <a href="#news">News</a>
+  <a href="#">Complain Form</a>
   <div class="dropdown">
-    <button class="dropbtn">Dropdown 
+    <button class="dropbtn">Menu 
       <i class="fa fa-caret-down"></i>
     </button>
      <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="#">FB GROUP</a>
+      <a href="#">FREE EXAMS</a>
+      <a href="#">YOU TUBE CHANNEL</a>
     </div>
   </div> 
 </div>
   <h3>Dropdown Menu inside a Navigation Bar</h3>
-<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+<p>Hover over the "Menu" link to see the dropdown menu.</p>
 
 </body>
 </html>
