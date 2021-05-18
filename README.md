@@ -1,66 +1,48 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+.vertical-menu {
+  width: 200px;
 }
-
-.topnav {
-  overflow: hidden;
-  background-color: #00FF00;
-}
-
-.topnav a {
-  float: left;
+ .vertical-menu a {
+  background-color: #eee;
+  color: black;
   display: block;
-  color: #FF0000;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 12px;
   text-decoration: none;
-  font-size: 17px;
-}
-.topnav .icon {
-  display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
+.vertical-menu a:hover {
+  background-color: #ccc;
 }
 
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-.topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+.vertical-menu a.active {
+  background-color: #04AA6D;
+  color: white; 
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
 }
+  }
 </style>
 </head>
 <body>
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="https://facebook.com/groups/sajansiremp/">Group EMP</a>
-  <a href="https://youtube.com/c/SajanSir">YOU TUBE</a>
- <a href="https://surveyheart.com/form/60a38489f7b5525279b77ce1o">TEAM FORM</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+
+<h1>Vertical Menu</h1>
+ <div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  <a href="#">Link 4</a>
 </div>
-
-
+  </body>
+</html>
   
 
 
