@@ -111,6 +111,16 @@ body {
 
 
 
+<a href="#" class="animated-button1">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  Button
+</a>
+
+
+
 
 
 
