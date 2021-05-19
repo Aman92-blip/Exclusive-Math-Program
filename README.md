@@ -3,21 +3,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-  .navbar {
+body {margin:0;font-family:Arial}
+
+.topnav {
   overflow: hidden;
   background-color: #333;
 }
-
-.navbar a {
+.topnav a {
   float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.topnav .icon {
+  display: none;
 }
 
 .dropdown {
@@ -26,20 +33,17 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
+  font-size: 17px;    
+border: none;
   outline: none;
-  color: green;
+  color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: green;
-}
-  .dropdown-content {
+.dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -47,7 +51,6 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
 .dropdown-content a {
   float: none;
   color: black;
@@ -56,37 +59,91 @@ body {
   display: block;
   text-align: left;
 }
-  .dropdown-content a:hover {
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
   background-color: #ddd;
+  color: black;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
   }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+ .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+}
 </style>
 </head>
 <body>
 
-<div class="navbar">
-  <a href="#home">Home</a>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
   <a href="#news">News</a>
-  <a href="#">Complain Form</a>
+  <a href="#contact">Contact</a>
   <div class="dropdown">
-    <button class="dropbtn">Menu 
+    <button class="dropbtn">Dropdown 
       <i class="fa fa-caret-down"></i>
     </button>
-     <div class="dropdown-content">
-      <a href="#">FB GROUP</a>
-      <a href="#">FREE EXAMS</a>
-      <a href="#">YOU TUBE CHANNEL</a>
+ <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
     </div>
   </div> 
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
-  <h3>Dropdown Menu inside a Navigation Bar</h3>
-<p>Hover over the "Menu" link to see the dropdown menu.</p>
+
+<div style="padding-left:16px">
+  <h2>Responsive Topnav with Dropdown</h2>
+  <p>Resize the browser window to see how it works.</p>
+  <p>Hover over the dropdown button to open the dropdown menu.</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+x.className = "topnav";
+  }
+}
+</script>
 
 </body>
 </html>
+
 
 
   
