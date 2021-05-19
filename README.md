@@ -125,8 +125,8 @@ border: none;
 </div>
 
 <div style="padding-left:16px">
-  <h2>Responsive Topnav with Dropdown</h2>
-  <p>Resize the browser window to see how it works.</p>
+  <h2>A trusted website</h2>
+  <p>Powered by Exclusive Math Program. </p>
   <p>Hover over the dropdown button to open the dropdown menu.</p>
 </div>
 
@@ -173,7 +173,7 @@ body {
 }
 
 .glow {
-  font-size: 80px;
+  font-size: 60px;
   color: #fff;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
@@ -193,19 +193,3 @@ body {
 <h1 class="glow">EXCLUSIVE MATH PROGRAM</h1>
      
 </body>
-
-
-
-<a href="#" class="animated-button1">
-  <span></span>
-  <span></span>
-  <span></span>
-  <span></span>
-  Button
-</a>
-
-
-
-
-
-
